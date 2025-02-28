@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bribon Fiscal</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/login.css">
+  <link rel="stylesheet" href="assets/css/Auth/login.css">
 </head>
 <body>
   <div class="wrapper">
@@ -17,13 +17,13 @@
     </div>
 
     <nav class="navbar">
-      <!-- <img src="assets/img/LogoBribonFiscal_Imagen.png" alt="Logo"> -->
+      <!-- <img src="assets/Auth/img/LogoBribonFiscal_Imagen.png" alt="Logo"> -->
 
       <button>Inicie Sesi&oacute;n en Bribon Fiscal</button>
     </nav>
 
     <div class="questions">
-      <img src="assets/img/LogoBribonFiscal_Imagen1.png" alt="Logo">
+      <img src="assets/img/Auth/LogoBribonFiscal_Imagen1.png" alt="Logo">
       <br><br><br>
       <label data-target="respuesta1" class="selected">¿Qu&eacute; es Bribon Fiscal?</label>
       <label data-target="respuesta2">¿C&oacute;mo accedo a Bribon Fiscal?</label>
@@ -41,7 +41,7 @@
           </p>
         </div>
         <div class="image-container">
-          <img src="assets/img/CentroProcesosDatosLSD.png" class="answer-image">
+          <img src="assets/img/Auth/CentroProcesosDatosLSD.png" class="answer-image">
         </div>
       </div>
 
@@ -55,7 +55,7 @@
           </p>
         </div>
         <div class="image-container">
-          <img src="assets/img/SecurityLapMD.png" class="answer-image">
+          <img src="assets/img/Auth/SecurityLapMD.png" class="answer-image">
         </div>
       </div>
 
@@ -69,7 +69,7 @@
           </p>
         </div>
         <div class="image-container">
-          <img src="assets/img/ProposIt.png" class="answer-image">
+          <img src="assets/img/Auth/ProposIt.png" class="answer-image">
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@
         <path d="M53.7,3.6v46.3l40.7-23.2L53.7,3.6z M57.9,10.6l28.4,16.2L57.7,42.9V10.6z" />
       </g>
     </svg> -->
-    <img src="assets/img/LogoBribonFiscalSF.png">
+    <img src="assets/Auth/img/LogoBribonFiscalSF.png">
   </div>
 <br>
   <form class="details">
@@ -121,7 +121,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="assets/js/login.js"></script>
+<script src="assets/js/Auth/login.js"></script>
 
 </body>
 </html>
