@@ -8,6 +8,7 @@ class Home extends BaseController
     {
         // return view('welcome_message');
         return view('Auth/login');
+        //return view('Borradores/BorradorLogin');
 
     }
 }

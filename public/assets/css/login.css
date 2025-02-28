@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,300);
+
+body {
+	font-family: 'Public Sans', Arial, sans-serif;
+	background-color: #f9f9f9;
+	color: #1b1b1b;
+}
+.top-bar {
+	background-color: #222831;
+	color: #ffffff;
+	padding: 9px;
+	text-align: left;
+}
+.top-bar p {
+	font-size: 13px;
+	margin-top: 0px;
+	padding-left: 15%;
+	margin-bottom: 0px;
+}
+.navbar {
+	background-color: #EEEEEE;
+	padding: 15px 10px;
+	padding-right: 15%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: flex-end;
+}
+.navbar img {
+	height: 80px;
+	width: 90px;
+	margin-left: 15%;
+	align-items: left;
+}
+.navbar button {
+	font-family: roboto;
+	font-size: 17px;
+	font-weight: bold;
+	background-color: #3B6790;
+	color: #EDEDED;
+	border-width: thin;
+	padding: 10px 50px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 10%;
+}
+.navbar button:hover {
+	background-color: #004080;
+}
+.questions {
+	padding: 30px;
+	background-color: #EDEDED;
+	margin-top: 00px;
+	padding-left: 15%;
+	text-align: left;
+}
+.questions img {
+	height: 80px;
+	width: 90px;
+	margin-left: 15px;
+}
+/*.questions label {
+	margin: 0 15px;
+	cursor: pointer;
+	font-size: 20px;
+}*/
+ .questions label {
+/*    display: block;*/
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .questions label.selected {
+    border-bottom: 2px solid #B51FB7; /* Línea debajo cuando está seleccionada */
+  }
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	background-color: #263238;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 30px;
+	min-height: 400px;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+
+.text-container {
+    flex: 1;
+    padding: 30px;
+    padding-top: 3%;
+    padding-left: 15%;
+}
+.answers {
+    display: flex;
+    flex-direction: row; /* Mantiene imagen y texto en la misma línea */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.answers.active {
+	position: relative;
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.panswers {
+
+	font-family: "Gill Sans", sans-serif;
+	font-size: 25px;
+	padding-right: 10%;
+	color: #fff;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 15%;
+}
+.answer-image {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.answer-image:hover {
+	transform: scale(1.1);
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	background-color: #222831;
+	margin-top: 20px;
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.footer p {
+	color: #777;
+	font-size: 0.9rem;
+	margin: 0;
+}
+.sign-up-modal p,
+.sign-up-modal .form-checkbox label {
+	font-size: 1em;
+	font-weight: 300;
+	color: #EDEDED;
+	padding-left: 25px;
+cursor: pointer;
+}
+
+.logo {
+	fill: #FEFEFE;
+}
+.logo-container {
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+	text-align: center;
+}
+
+.logo-container img{
+	width: 20%;
+	height: 15%;
+}
+.sign-up-modal {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	max-width: 500px;
+	background: #fff;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	z-index: 1000;
+	animation: fadeIn 0.9s ease-out;
+	/*background-image: -moz-linear-gradient(-90deg, rgb(236, 111, 102) 0%, rgb(243, 161, 131) 100%);
+	background-image: -webkit-linear-gradient(-90deg, rgb(236, 111, 102) 0%, rgb(243, 161, 131) 100%);
+	background-image: -ms-linear-gradient(-90deg, rgb(236, 111, 102) 0%, rgb(243, 161, 131) 100%);*/
+/*/*	gris mamalon* /
+	background-image: -moz-linear-gradient(45deg, rgb(38, 50, 56) 0%, rgb(61, 72, 77) 40%, rgb(238, 238, 238) 100%);
+background-image: -webkit-linear-gradient(45deg, rgb(38, 50, 56) 0%, rgb(61, 72, 77) 40%, rgb(238, 238, 238) 100%);
+background-image: -ms-linear-gradient(45deg, rgb(38, 50, 56) 0%, rgb(61, 72, 77) 40%, rgb(238, 238, 238) 100%);
+*/
+	background-image: -moz-linear-gradient(45deg, rgb(20, 30, 40) 0%, rgb(30, 50, 60) 40%, rgb(10, 90, 120) 100%);
+background-image: -webkit-linear-gradient(45deg, rgb(20, 30, 40) 0%, rgb(30, 50, 60) 40%, rgb(10, 90, 120) 100%);
+background-image: -ms-linear-gradient(45deg, rgb(20, 30, 40) 0%, rgb(30, 50, 60) 40%, rgb(10, 90, 120) 100%);
+
+}
+.sign-up-modal form {
+	margin: 0 auto;
+	text-align: center;
+}
+.sign-up-modal input::-webkit-input-placeholder {
+	color: #fefefe;
+	opacity: 1;
+}
+.sign-up-modal input:focus::-webkit-input-placeholder {
+	color: #111;
+	opacity: .5;
+	transition: all 0.1s ease;
+}
+.sign-up-modal .input-container {
+	margin: 10px;
+}
+.sign-up-modal input[type="email"],
+.sign-up-modal input[type="text"],
+.sign-up-modal input[type="password"],
+.sign-up-modal input[type="checkbox"]:focus,
+.sign-up-modal input[type="submit"]:focus {
+	outline: 0;
+}
+.sign-up-modal input[type="email"],
+.sign-up-modal input[type="text"],
+.sign-up-modal input[type="password"] {
+	font-weight: 700;
+	font-size: 1.4em;
+	padding: 10px;
+	border-width: 2px;
+	border-color: rgba(247, 247, 247, .3);
+	border-style: solid;
+	background: url('transparent');
+}
+.sign-up-modal input[type="email"]:focus,
+.sign-up-modal input[type="text"]:focus,
+.sign-up-modal input[type="password"]:focus {
+	background: white;
+	transition: all 0.3s ease;
+	color: #222;
+}
+.sign-up-modal input[type="checkbox"] {
+	-webkit-appearance: none;
+	background-color: #fefefe;
+	display: inline-block;
+	position: relative;
+	padding: 6px;
+	margin-left: -6px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.sign-up-modal input[type="checkbox"]:checked:after {
+	content: '\2714';
+	font-size: 13px;
+	position: absolute;
+	top: -2px;
+	left: 2px;
+	color: #111;
+}
+.sign-up-modal a {
+	color: #fefefe;
+	text-decoration: underline;
+}
+.sign-up-modal a:hover {
+	color: #d26960;
+}
+.sign-up-modal input[type="submit"] {
+	font-weight: 700;
+	font-size: 1.8em;
+	color: #1B2B35;
+	background: #fefefe;
+	box-shadow: 0px 4px 0px 0px #941CA0;
+	border-style: none;
+	padding: 10px 50px;
+	margin: 25px 0 15px 0;
+	position: relative;
+	display: inline-block;
+	transition: all .1s linear;
+}
+.sign-up-modal input[type="submit"]:active {
+	box-shadow: 0 2px 0 #d26a60;
+	transform: translateY(3px);
+	-webkit-transform: translateY(3px);
+	-ms-transform: translateY(3px);
+}
+.sign-up-modal #close-modal-button {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #d26960;
+	float: right;
+	position: relative;
+	top: -55px;
+	left: 50px;
+	cursor: pointer;
+}
+.sign-up-modal #close-modal-button:before {
+	content: '\2716';
+	font-size: 1.5em;
+	position: relative;
+	top: 10px;
+	left: 17px;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate(-50%, -60%);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%);
+	}
+}
+.modal-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+}
+#close-modal-button:hover {
+	color: #DF324A;
+}
+@media only screen and (min-width: 768px) {
+	.sign-up-modal .form-checkbox {
+		text-align: left;
+	
+	}
+	.sign-up-modal .email-input .password-input {
+		margin-bottom: 20px;
+		margin-top: 50px;
+	}
+	.sign-up-modal form {
+		width: 70%;
+	}
+}
