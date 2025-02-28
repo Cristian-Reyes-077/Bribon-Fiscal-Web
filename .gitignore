@@ -1,0 +1,6 @@
+# --Ignorar archivos del docker--#
+*.conf
+*.yml
+Dockerfile
+sftp-config.json
+/App/Views/Borradores/
