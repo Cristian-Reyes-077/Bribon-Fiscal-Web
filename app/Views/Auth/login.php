@@ -94,13 +94,13 @@
     </svg> -->
     <img src="assets/img/Auth/LogoBribonFiscalSF.png">
   </div>
-<br>
+  <br>
   <form class="details">
     <div class="input-container">
-      <input class="col-sm-12 email-input with-placeholder" id="email" type="email" placeholder="Email" />
+      <input class="col-sm-12 email-input with-placeholder" id="email" type="email" placeholder="Email" value="crisreyesc26@gmail.com" />
     </div>
     <div class="input-container">
-      <input class="col-sm-12 password-input with-placeholder" id="password" type="password" placeholder="Password" />
+      <input class="col-sm-12 password-input with-placeholder" id="password" type="password" placeholder="Password" value="R74-16C" />
     </div>
 
     <div class="col-sm-12 form-checkbox">
@@ -116,9 +116,45 @@
 </div>
 
 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="assets/js/Auth/login.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  
+// mandar datos para iniciar sesion
+$(document).ready(function(){
+
+$("#sign-up-button").click(function(e){
+
+  e.preventDefault();
+  let email = $("#email").val();
+  let password = $("#password").val();
+
+  console.log(email);
+  
+  $.ajax({
+ url: "<?= base_url('auth/verificarLogin') ?>", // Ruta al controlador
+ type: "POST",
+ data: { username: email, password: password },
+ dataType: "json",
+ success: function(response) {
+  if (response.status === "ok") {
+    //alert("Inicio de sesión exitoso");
+                window.location.href = "<?= base_url('Home/Dashboard') ?>"; // Redirigir si es necesario
+              } else {
+                alert(response.message);
+              }
+            },
+            error: function() {
+              alert("Error en la solicitud");
+            }
+          });
+});
+
+});
+</script>
 </body>
 </html>
