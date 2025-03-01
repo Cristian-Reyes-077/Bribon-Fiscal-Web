@@ -35,7 +35,7 @@ body {
 	font-family: roboto;
 	font-size: 17px;
 	font-weight: bold;
-	background-color: #3B6790;
+	background-color: #002A55;
 	color: #EDEDED;
 	border-width: thin;
 	padding: 10px 50px;
@@ -281,7 +281,7 @@ background-image: -ms-linear-gradient(45deg, rgb(20, 30, 40) 0%, rgb(30, 50, 60)
 	font-size: 1.8em;
 	color: #1B2B35;
 	background: #fefefe;
-	box-shadow: 0px 4px 0px 0px #941CA0;
+	box-shadow: 5px 5px 5px #51247D;
 	border-style: none;
 	padding: 10px 50px;
 	margin: 25px 0 15px 0;
@@ -290,7 +290,7 @@ background-image: -ms-linear-gradient(45deg, rgb(20, 30, 40) 0%, rgb(30, 50, 60)
 	transition: all .1s linear;
 }
 .sign-up-modal input[type="submit"]:active {
-	box-shadow: 0 2px 0 #d26a60;
+	box-shadow: 0 5px 0 #d26a60;
 	transform: translateY(3px);
 	-webkit-transform: translateY(3px);
 	-ms-transform: translateY(3px);

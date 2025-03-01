@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -95,7 +92,7 @@
         <path d="M53.7,3.6v46.3l40.7-23.2L53.7,3.6z M57.9,10.6l28.4,16.2L57.7,42.9V10.6z" />
       </g>
     </svg> -->
-    <img src="assets/Auth/img/LogoBribonFiscalSF.png">
+    <img src="assets/img/Auth/LogoBribonFiscalSF.png">
   </div>
 <br>
   <form class="details">
