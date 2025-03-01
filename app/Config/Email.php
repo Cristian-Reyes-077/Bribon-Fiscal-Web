@@ -8,7 +8,7 @@ class Email extends BaseConfig
 {
     public string $fromEmail  = 'authentication.arquimedes@renovatiopyme.com';
     public string $fromName   = 'Autenticación Bribón Fiscal';
-    public string $recipients = '6969';
+    public string $recipients = '';
 
     /**
      * The "user agent"
