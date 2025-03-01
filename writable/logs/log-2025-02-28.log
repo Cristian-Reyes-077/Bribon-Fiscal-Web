@@ -136,3 +136,170 @@ in APPPATH/Controllers/AuthenticationController.php on line 7.
  7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 22:14:42 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: auth/verificacionLogin]
+in APPPATH/Config/Routes.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 22:20:00 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: auth/verificacionLogin]
+in APPPATH/Config/Routes.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 22:21:13 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH/Config/Routes.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:20:56 --> TypeError: App\Controllers\AuthenticationController::verificarLogin(): Return value must be of type App\Controllers\ResponseInterface, CodeIgniter\HTTP\Response returned
+[Method: POST, Route: auth/verificarLogin]
+in APPPATH/Controllers/AuthenticationController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:21:20 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: auth/verificarLogin]
+in APPPATH/Controllers/AuthenticationController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:22:20 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: auth/verificarLogin]
+in APPPATH/Controllers/AuthenticationController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:22:23 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: auth/verificarLogin]
+in APPPATH/Controllers/AuthenticationController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:24:08 --> TypeError: App\Controllers\AuthenticationController::verificarLogin(): Return value must be of type App\Controllers\ResponseInterface, CodeIgniter\HTTP\Response returned
+[Method: POST, Route: auth/verificarLogin]
+in APPPATH/Controllers/AuthenticationController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:29:00 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: auth/verificarLogin]
+in SYSTEMPATH/Database/Database.php on line 182.
+ 1 SYSTEMPATH/Database/Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH/Database/Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH/Controllers/AuthenticationController.php(19): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:34:30 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: auth/verificarLogin]
+in SYSTEMPATH/Database/Database.php on line 182.
+ 1 SYSTEMPATH/Database/Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH/Database/Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH/Controllers/AuthenticationController.php(19): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:35:17 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: auth/verificarLogin]
+in SYSTEMPATH/Database/Database.php on line 182.
+ 1 SYSTEMPATH/Database/Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH/Database/Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH/Controllers/AuthenticationController.php(19): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:36:57 --> Error: Undefined constant App\Controllers\AuthenticationController::index
+[Method: GET, Route: /]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:37:52 --> Error: Undefined constant App\Controllers\AuthenticationController::index
+[Method: GET, Route: /]
+in APPPATH/Config/Routes.php on line 9.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:39:49 --> Error: Undefined constant App\Controllers\AuthenticationController::verificarLogin
+[Method: GET, Route: /]
+in APPPATH/Config/Routes.php on line 12.
+ 1 SYSTEMPATH/Router/RouteCollection.php(339): require()
+ 2 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:41:22 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: auth/verificarLogin]
+in SYSTEMPATH/Database/Database.php on line 182.
+ 1 SYSTEMPATH/Database/Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH/Database/Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH/Controllers/AuthenticationController.php(19): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-28 23:41:34 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: auth/verificarLogin]
+in SYSTEMPATH/Database/Database.php on line 182.
+ 1 SYSTEMPATH/Database/Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH/Database/Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH/Controllers/AuthenticationController.php(19): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthenticationController->verificarLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
