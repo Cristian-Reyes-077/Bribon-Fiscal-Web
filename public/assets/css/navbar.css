@@ -1,0 +1,50 @@
+/* Estilos de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos */
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fija la barra en la parte superior */
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la parte izquierda (icono menú + logo) */
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.logo {
+    height: 30px !important;
+    max-width: 120px !important;
+}
+
+
+/* Estilos de la parte central */
+.center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Estilos de la parte derecha (Selector de nombres) */
+.right select {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
