@@ -11,7 +11,7 @@
 
 <nav class="navbar">
     <div class="left">
-        <button class="menu-btn">☰</button>
+    <button id="menuToggle">☰</button> <!-- Boton de menu lateral -->
         <img src="<?= base_url('assets/img/LogoBribonFiscal_ImagenL.png'); ?>" alt="Logo" class="logo">
     </div>
 
@@ -27,6 +27,16 @@
         </select>
     </div>
 </nav>
+<!-- contenido del menu lateral -->
+<div id="sidebar" class="sidebar">
+    <button id="closeSidebar">&times;</button>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</div>
 
 <script src="<?= base_url('assets/js/navbar.js'); ?>"></script>
 

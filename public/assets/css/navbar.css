@@ -48,3 +48,54 @@
     border: none;
     border-radius: 5px;
 }
+
+/* Estilos del menú lateral */
+.sidebar {
+    position: fixed;
+    left: -250px; /* Inicialmente oculto */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #222;
+    color: white;
+    transition: 0.3s;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background-color: #444;
+}
+
+/* Botón de cerrar */
+#closeSidebar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mostrar el menú cuando se active */
+.sidebar.active {
+    left: 0;
+}
